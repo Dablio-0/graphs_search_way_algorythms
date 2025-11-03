@@ -1,0 +1,10 @@
+app_minas/__pycache__/
+app_minas/*.pyc
+app_minas/*.pyo
+app_minas/*.pyd 
+
+app_minas/env/
+app_minas/.env
+
+app_minas/__init__.py
+app_minas/assets/
