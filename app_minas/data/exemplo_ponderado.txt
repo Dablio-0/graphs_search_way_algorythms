@@ -1,0 +1,30 @@
+# Grafo Ponderado de Exemplo (A-J)
+# Formato: <origem> <destino> <custo>
+
+10
+
+# Arestas
+1 2 5.0  # A -> B
+1 3 1.0  # A -> C
+2 4 3.0  # B -> D
+3 4 10.0 # C -> D
+3 5 2.0  # C -> E
+4 6 1.0  # D -> F
+5 6 8.0  # E -> F
+6 7 4.0  # F -> G
+7 8 1.0  # G -> H
+8 9 2.0  # H -> I
+9 10 1.0 # I -> J
+
+# Posições dos nós (para heurística)
+# Nó X Y
+1 0 0
+2 5 0
+3 0 5
+4 5 5
+5 0 10
+6 5 10
+7 10 10
+8 10 5
+9 10 0
+10 15 0
